@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c61ff82cbf0142a401a48a8161e1595a",
+    "content-hash": "1e6a8f09602c8c3eff57f0e610652621",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2140,6 +2140,58 @@
                 "source": "https://github.com/opis/closure/tree/3.6.3"
             },
             "time": "2022-01-27T09:35:39+00:00"
+        },
+        {
+            "name": "php-smpp/php-smpp",
+            "version": "1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/onlinecity/php-smpp.git",
+                "reference": "b8632357b4bf48668aa461d9004c70be9c99de9e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/onlinecity/php-smpp/zipball/b8632357b4bf48668aa461d9004c70be9c99de9e",
+                "reference": "b8632357b4bf48668aa461d9004c70be9c99de9e",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "ext-sockets": "*",
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "gsmencoder.class.php",
+                    "sockettransport.class.php",
+                    "smppclient.class.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL"
+            ],
+            "authors": [
+                {
+                    "name": "Hans Duedal",
+                    "email": "hd@oc.dk",
+                    "homepage": "http://oc.dk"
+                }
+            ],
+            "description": "PHP-based SMPP client lib",
+            "homepage": "http://github.com/onlinecity/php-smpp",
+            "keywords": [
+                "gsm",
+                "smpp",
+                "sms",
+                "texting"
+            ],
+            "support": {
+                "issues": "https://github.com/onlinecity/php-smpp/issues",
+                "source": "https://github.com/onlinecity/php-smpp/tree/master"
+            },
+            "time": "2015-01-26T10:59:22+00:00"
         },
         {
             "name": "phpoption/phpoption",
@@ -7711,5 +7763,5 @@
         "php": "^7.3|^8.0"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.3.0"
 }
